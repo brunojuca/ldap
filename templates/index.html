@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LDAP Web Client</title>
+    <link rel="stylesheet" type= "text/css" href="{{ url_for('static', filename='style.css')}}">
+</head>
+<body>
+    <div id="root">
+        <h2 id="title">Login</h1>
+        <!-- <p id="description">Insira um texto no campo abaixo e escolha um dos classificadores disponíveis para predizer o nível de complexidade</p> -->
+        <form id="model-form" method="POST">  
+            <label for="email-input">Email: </label> <br/>
+            <input type="email" id="email-input" name="email" class="login-fields" required> <br/>
+    
+            <label for="password-input">Password: </label> <br/>
+            <input type="password" id="password-input" name="password" class="login-fields" required>
+        </form>
+        <input form="model-form" type="submit" value="Enviar">
+    </div>
+
+</body>
+</html>

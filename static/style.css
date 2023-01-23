@@ -1,0 +1,62 @@
+body {
+    background-color: rgb(54, 54, 54);
+    color: rgb(255, 255, 255);
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 20pt;
+}
+
+textarea {
+    font-family: Helvetica, Arial, sans-serif;
+    background-color: rgb(141, 141, 141);
+    border: 0ch;
+    border-radius: 0%;
+    resize: none;
+    font-size: 20pt;
+    height: 60%;
+    width: 60%;
+    margin: 30px;
+}
+
+p {
+    font-size: 14pt;
+}
+
+.login-fields{ 
+    font-size: 20pt;
+}
+
+input[type='submit'], button {
+    font-size: 20pt;
+    text-transform:uppercase;
+    padding: 10pt
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 90vh;
+}
+
+#root-result {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 90vh;
+    margin-top: 50px;
+}
+
+#title {
+    margin: 10px;
+}
+
+#description {
+    margin: 30px;
+    width: 50%;
+    text-align: center;
+}
+
+#result {
+    margin-bottom: 100px;
+}
